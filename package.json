@@ -1,0 +1,19 @@
+{
+  "name": "myp.portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artie021/My_P.portfolio.git"
+  },
+  "author": "Arthur Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artie021/My_P.portfolio/issues"
+  },
+  "homepage": "https://github.com/artie021/My_P.portfolio#readme"
+}
