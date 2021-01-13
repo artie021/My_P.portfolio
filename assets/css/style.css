@@ -123,16 +123,25 @@
     
     
     }
+    .menu-btn i.active:before{
+
+        content: '\f00d';
+
+    }
 
     .navbar .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        right: -100%;
         top: 0;
         background: #111;
         text-align: center;
         padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        right: 0;
     }
     .navbar .menu li{
         display: block;
